@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 33% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --primary: 171 81% 28%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 38 92% 55%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 30% 94%;
+  --muted-foreground: 215 16% 40%;
+  --accent: 218 72% 51%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 48%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 214 24% 88%;
+  --input: 214 24% 88%;
+  --ring: 171 81% 28%;
+}
+
+.dark {
+  --background: 222 36% 8%;
+  --foreground: 210 40% 96%;
+  --card: 221 30% 12%;
+  --card-foreground: 210 40% 96%;
+  --primary: 171 73% 43%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 38 92% 58%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 222 24% 18%;
+  --muted-foreground: 215 18% 72%;
+  --accent: 218 72% 58%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 76% 56%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 222 20% 22%;
+  --input: 222 20% 22%;
+  --ring: 171 73% 43%;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-feature-settings:
+    "rlig" 1,
+    "calt" 1;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+}
+
+.focus-ring {
+  @apply outline-none ring-offset-2 ring-offset-background focus-visible:ring-2 focus-visible:ring-ring;
+}
+
+.surface-grid {
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.dark .surface-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
