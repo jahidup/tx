@@ -1,0 +1,81 @@
+
+> sankalp-digital-pathshala-test-portal@1.0.0 dev
+> next dev --port 3001
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3001
+   - Network:      http://10.129.79.55:3001
+   - Experiments (use with caution):
+     · serverActions
+
+ ✓ Starting...
+ ✓ Ready in 4.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.9s (1490 modules)
+ GET / 200 in 10949ms
+ GET / 200 in 193ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 988ms (1499 modules)
+ GET /about 200 in 1483ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 687ms (1512 modules)
+ GET /contact 200 in 1032ms
+ ○ Compiling /student-login ...
+ ✓ Compiled /student-login in 682ms (1530 modules)
+ GET /student-login 200 in 1151ms
+ ○ Compiling /admin-login ...
+ ✓ Compiled /admin-login in 542ms (1532 modules)
+ GET /admin-login 200 in 1003ms
+ ○ Compiling /robots.txt ...
+ ✓ Compiled /robots.txt in 879ms (1551 modules)
+ GET /robots.txt 200 in 1138ms
+ ✓ Compiled /sitemap.xml in 461ms (1554 modules)
+ GET /sitemap.xml 200 in 585ms
+ ○ Compiling /api/auth/admin/login ...
+ ✓ Compiled /api/auth/admin/login in 1347ms (1654 modules)
+ POST /api/auth/admin/login 200 in 2326ms
+ ○ Compiling /api/admin/dashboard ...
+ ✓ Compiled /api/admin/dashboard in 732ms (1657 modules)
+ GET /api/admin/dashboard 200 in 889ms
+ ○ Compiling /api/auth/student/login ...
+ ✓ Compiled /api/auth/student/login in 604ms (1659 modules)
+ POST /api/auth/student/login 200 in 721ms
+ ○ Compiling /api/student/dashboard ...
+ ✓ Compiled /api/student/dashboard in 562ms (1661 modules)
+ GET /api/student/dashboard 200 in 648ms
+ ○ Compiling /api/student/tests ...
+ ✓ Compiled /api/student/tests in 656ms (1663 modules)
+ GET /api/student/tests?status=live 200 in 765ms
+ GET / 200 in 681ms
+ GET /admin-login 200 in 240ms
+ POST /api/auth/admin/login 200 in 71ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1004ms (116 modules)
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 2.2s (1692 modules)
+ GET /admin 200 in 2527ms
+ GET /admin 200 in 90ms
+ ✓ Compiled /api/admin/dashboard in 337ms (997 modules)
+ GET /api/admin/dashboard 200 in 544ms
+ ✓ Compiled /student-login in 310ms (999 modules)
+ GET /api/admin/dashboard 200 in 752ms
+ GET /student-login 200 in 1340ms
+ ✓ Compiled /api/auth/student/login in 363ms (1001 modules)
+ POST /api/auth/student/login 200 in 463ms
+ ○ Compiling /student ...
+ ✓ Compiled /student in 771ms (1717 modules)
+ GET /student 200 in 922ms
+ GET /student 200 in 98ms
+ ○ Compiling /api/student/dashboard ...
+ ✓ Compiled /api/student/dashboard in 574ms (1015 modules)
+ GET /api/student/dashboard 200 in 710ms
+ GET /api/student/dashboard 200 in 53ms
+ GET / 200 in 482ms
+ ✓ Compiled in 1153ms (1733 modules)
+ GET / 200 in 216ms
+ GET / 200 in 278ms
+ GET /student 200 in 253ms
+ GET /api/student/dashboard 200 in 191ms
+ ✓ Compiled in 446ms (704 modules)
+ ✓ Compiled in 569ms (718 modules)
+ GET /student 200 in 82ms
